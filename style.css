@@ -1,0 +1,78 @@
+body{
+	color: white;
+	background: #000 url(https://img4.goodfon.com/original/1920x1080/e/7d/johnleepee-synthpop-synth-retrowave-sinti-sinti-pop-muzyka-e.jpg);
+	background-attachment: fixed;
+    background-repeat: repeat-x;
+	font-family: Verdana, sans-serif;
+	margin: 0px;
+}
+
+.info{
+	margin: 0px 150px 200px 150px;
+	padding: 20px;
+	margin-top: -2px;
+}
+#result{
+	
+	border: 3px solid black;
+
+}
+h2{
+	clear: both;
+}
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+h1, .h1, h2, .h2, h3, .h3, .h4, h4{
+	color: #f5f5f5;
+    font-family: 'Verdana',sans-serif;
+    text-transform: uppercase;
+}
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+.hidden{
+	display:none;
+}
+#head{    
+  height: 75px;  
+}
+#menu{
+	height: 75px; 
+	background: black;
+	margin: 0px 150px 0px 150px;
+}
+#menu a{
+	float: left;
+	font-family: 'Verdana',sans-serif;
+	display: block;
+    border-bottom: none;
+	background: #000000;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	white-space: nowrap;
+	font-size: 1em;
+	margin: 25px 10px 20px 10px;
+}
+#menu a:hover{
+	color: black;
+	background: #808080;
+}
+.logo{
+	margin-left: 30px;
+	width: 80px;
+	height: 80px;
+	background-size: contain;
+	transition: transform .4s;
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+}
+.logo:hover {
+    transform: scale(1.3); /* Увеличиваем масштаб */
+   }
+.logo img { 
+    display: block; /* Убираем небольшой отступ снизу */
+   }
